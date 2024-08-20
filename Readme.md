@@ -1,4 +1,4 @@
-## Query the tokens
+## Query the favourite tokens
 
 ### description
 > Query the tokens that users are interested in

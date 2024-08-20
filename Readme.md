@@ -1,7 +1,4 @@
-## Query the favourite tokens
-
-### description
-> Query the tokens that users are interested in
+## Title: Query the tokens that users are interested in
 
 Method: GET
 
@@ -86,6 +83,7 @@ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 Method: GET
 
 Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/{tokenName}/OHLCV
+Description: Query chart data by time period
 
 ### Request parameters
 
@@ -133,6 +131,8 @@ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/{tokenName}/OHLCV
 Method: GET
 
 Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/trendingTokens
+
+Description: Query trending data 
 
 > example
 
@@ -265,6 +265,8 @@ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/tokens/search
 Method: GET
 
 Path: https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/selectedTokens
+
+Description: Query tg market data
 
 > example
 
@@ -441,7 +443,7 @@ Body Request parameters
 
 ### Request parameters
 
-| name | position | type                                                    | required | description |
+| name | position | type                                                    | required |  |
 | ---- | -------- | ------------------------------------------------------- | -------- | ----------- |
 | body | body     | [BitcoinSignPsbtRequest](#schemabitcoinsignpsbtrequest) | false    | none        |
 
@@ -762,7 +764,7 @@ Method: DELETE
 
 Path:  https://apis.tomo.inc/wind/v1/asset/del/{chain_id}/{token}
 
-Description: Del token asset for user
+Description: Del token asset for user by chain_id and token
 
 ### Request parameters
 
@@ -787,9 +789,9 @@ Description: Del token asset for user
 
 Method: GET
 
-Path:  https://apis.tomo.inc/wind/v2/passkey/check/{device_no}
+Path:  https://apis.tomo.inc/rain/v2/passkey/check/{device_no}
 
-Description: check passkey v2
+Description: check passkey v2 by device_no
 
 ### Request parameters
 
@@ -816,9 +818,9 @@ Description: check passkey v2
 
 Method: POST
 
-Path: https://apis.tomo.inc/wind/v2/passkey/create
+Path: https://apis.tomo.inc/rain/v2/passkey/create
 
-Description:  Submit Pubkey to table
+Description:  create passkey v2 by device_no and pubkey
 
 > Body Request parameters
 
@@ -851,7 +853,7 @@ Description:  Submit Pubkey to table
 
 Method: POST
 
-Path: https://apis.tomo.inc/wind/v2/passkey/validate
+Path: https://apis.tomo.inc/rain/v2/passkey/validate
 
 Description: Submit message & sign to validate
 
@@ -892,7 +894,7 @@ Method: POST
 
 Path: https://apis.tomo.inc/wind/v1/payment/passwd/change
 
-Description: change passwd is exist
+Description: change passwd 
 
 > Body Request parameters
 
@@ -927,7 +929,7 @@ Method: GET
 
 Path: https://apis.tomo.inc/wind/v1/payment/passwd/check
 
-Description:  check passwd is exist
+Description:  Verify the password
 
 ### Request parameters
 
@@ -955,7 +957,7 @@ Method: POST
 
 Path: https://apis.tomo.inc/wind/v1/payment/passwd/set
 
-Description: set passwd is exist
+Description: set passwd 
 
 > Body Request parameters
 
@@ -989,7 +991,7 @@ Method: POST
 
 Path: https://apis.tomo.inc/wind/v1/payment/passwd/validate
 
-Description: validate passwd is exist
+Description: Verify the password if it exists
 
 > Body Request parameters
 
@@ -1067,7 +1069,7 @@ Method: Post
 
 Path:  https://apis.tomo.inc/rain/v2/reg/{device_no}
 
-Description: generate public key
+Description: generate public key through device_no
 
 ### Request parameters
 
@@ -1096,7 +1098,7 @@ Method: Post
 
 Path:  https://apis.tomo.inc/rain/v2/sign
 
-Description: sign message
+Description: Signature through the device_no
 
 > Body Request parameters
 
@@ -1134,7 +1136,8 @@ Method: GET
 
 Path: https://apis.tomo.inc/cloud/v4/memes-overview
 
-Description: query token details
+
+Description: Query the token through the address and chain
 
 ### Request parameters
 

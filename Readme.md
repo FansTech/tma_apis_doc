@@ -7,7 +7,9 @@ Method: GET
 
 Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 
-> example 200 Response
+> example
+
+> 200 Response
 
 ```json
 {
@@ -46,7 +48,7 @@ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 
  Method: POST
 
- Path:  /api/socialLogin/teleGram/wallet/favouriteTokens
+ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 
  Body Request parameters
 
@@ -83,7 +85,7 @@ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 
 Method: GET
 
-Path:  /api/socialLogin/teleGram/{tokenName}/OHLCV
+Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/{tokenName}/OHLCV
 
 ### Request parameters
 
@@ -126,11 +128,11 @@ Path:  /api/socialLogin/teleGram/{tokenName}/OHLCV
 }
 ```
 
-## Title:  Chain maintained based on chains.json, check tokens
+## Title:  Chain maintained based on chains.json,query tokens（trending）
 
 Method: GET
 
-Path:  /api/socialLogin/teleGram/wallet/trendingTokens
+Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/trendingTokens
 
 > example
 
@@ -171,7 +173,7 @@ Path:  /api/socialLogin/teleGram/wallet/trendingTokens
 
 Method: GET
 
-Path: /api/socialLogin/teleGram/wallet/tokens
+Path: https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/tokens
 
 > example
 
@@ -212,7 +214,7 @@ Path: /api/socialLogin/teleGram/wallet/tokens
 
 Method: GET
 
-Path:  /api/socialLogin/teleGram/wallet/tokens/search
+Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/tokens/search
 
 ### Request parameters
 
@@ -262,7 +264,7 @@ Path:  /api/socialLogin/teleGram/wallet/tokens/search
 
 Method: GET
 
-Path: /api/socialLogin/teleGram/wallet/selectedTokens
+Path: https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/selectedTokens
 
 > example
 
@@ -305,7 +307,7 @@ Path: /api/socialLogin/teleGram/wallet/selectedTokens
 
 Method: GET
 
-Path:  /api/socialLogin/teleGram/getByName
+Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/getByName
 
 ### Request parameters
 
@@ -354,7 +356,7 @@ Path:  /api/socialLogin/teleGram/getByName
 
 Method: POST
 
-Path:  /api/socialLogin/projectWallet/solana/signRawTransaction   
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectWallet/solana/signRawTransaction   
 
 Body Request parameters
 
@@ -388,7 +390,7 @@ Body Request parameters
 
 Method: POST
 
-Path:  /api/socialLogin/projectWallet/ethereum/sendRawTransaction   
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectWallet/ethereum/sendRawTransaction   
 
 Body Request parameters
 
@@ -424,7 +426,7 @@ Body Request parameters
 
 Method: POST
 
-Path: /socialLogin/projectWallet/bitcoin/signPsbtAndPush   
+Path: https://apis.tomo.inc/sky/socialLogin/projectWallet/bitcoin/signPsbtAndPush   
 
 Body Request parameters
 
@@ -461,7 +463,7 @@ Body Request parameters
 
 Method: POST
 
-Path:  /api/socialLogin/projectWallet/bitcoin/pushTransaction
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectWallet/bitcoin/pushTransaction
 
 Body Request parameters
 
@@ -496,7 +498,7 @@ Body Request parameters
 
 Method:  POST
 
-Path: /api/socialLogin/projectWallet/bitcoin/createSendBitcoinPsbt 
+Path: https://apis.tomo.inc/sky/api/socialLogin/projectWallet/bitcoin/createSendBitcoinPsbt 
 
 Body Request parameters
 
@@ -539,7 +541,7 @@ Body Request parameters
 
 Method: POST
 
-Path:  /api/socialLogin/projectUser/bindEmailCodeVerify
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectUser/bindEmailCodeVerify
 
 Body Request parameters
 
@@ -574,7 +576,7 @@ Body Request parameters
 
 Method : GET
 
-Path:  /api/socialLogin/projectUser/bindEmailCode
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectUser/bindEmailCode
 
 ### Request parameters
 
@@ -600,7 +602,7 @@ Path:  /api/socialLogin/projectUser/bindEmailCode
 
 Method: POST
 
-Path:  /api/socialLogin/projectWallet/ethereum/signTransaction
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectWallet/ethereum/signTransaction
 
 Body Request parameters
 
@@ -642,7 +644,7 @@ Body Request parameters
 ## Title: Send raw transaction source data for TY transactions
 
 Method: Post
-Path:  /api/socialLogin/projectWallet/ethereum/sendRawTransaction
+Path:  https://apis.tomo.inc/sky/api/socialLogin/projectWallet/ethereum/sendRawTransaction
 
 Body Request parameters
 
@@ -678,7 +680,7 @@ Body Request parameters
 
 Method: POST
 
-Path:  /v1/asset/add
+Path:  https://apis.tomo.inc/wind/v1/asset/add
 
 Description: Add token asset for user
 
@@ -717,7 +719,7 @@ Description: Add token asset for user
 
 Methd: GET
 
-Path:  /v1/asset/all
+Path:  https://apis.tomo.inc/wind/v1/asset/all
 
 Description: Get token asset for user
 
@@ -758,7 +760,7 @@ Description: Get token asset for user
 
 Method: DELETE
 
-Path:  /v1/asset/del/{chain_id}/{token}
+Path:  https://apis.tomo.inc/wind/v1/asset/del/{chain_id}/{token}
 
 Description: Del token asset for user
 
@@ -785,7 +787,7 @@ Description: Del token asset for user
 
 Method: GET
 
-Path:  /v2/passkey/check/{device_no}
+Path:  https://apis.tomo.inc/wind/v2/passkey/check/{device_no}
 
 Description: check passkey v2
 
@@ -814,7 +816,7 @@ Description: check passkey v2
 
 Method: POST
 
-Path: /v2/passkey/create
+Path: https://apis.tomo.inc/wind/v2/passkey/create
 
 Description:  Submit Pubkey to table
 
@@ -849,7 +851,7 @@ Description:  Submit Pubkey to table
 
 Method: POST
 
-Path: /v2/passkey/validate
+Path: https://apis.tomo.inc/wind/v2/passkey/validate
 
 Description: Submit message & sign to validate
 
@@ -888,7 +890,7 @@ Description: Submit message & sign to validate
 
 Method: POST
 
-Path: /v1/payment/passwd/change
+Path: https://apis.tomo.inc/wind/v1/payment/passwd/change
 
 Description: change passwd is exist
 
@@ -923,7 +925,7 @@ Description: change passwd is exist
 
 Method: GET
 
-Path: /v1/payment/passwd/check
+Path: https://apis.tomo.inc/wind/v1/payment/passwd/check
 
 Description:  check passwd is exist
 
@@ -951,7 +953,7 @@ Description:  check passwd is exist
 
 Method: POST
 
-Path: /v1/payment/passwd/set
+Path: https://apis.tomo.inc/wind/v1/payment/passwd/set
 
 Description: set passwd is exist
 
@@ -985,7 +987,7 @@ Description: set passwd is exist
 
 Method: POST
 
-Path: /v1/payment/passwd/validate
+Path: https://apis.tomo.inc/wind/v1/payment/passwd/validate
 
 Description: validate passwd is exist
 
@@ -1019,7 +1021,7 @@ Description: validate passwd is exist
 
 Method: GET
 
-Path: /v1/token/balance
+Path: https://apis.tomo.inc/wind/v1/token/balance
 
 Description: get all token(contain native token & contract token)
 
@@ -1063,7 +1065,7 @@ Description: get all token(contain native token & contract token)
 
 Method: Post
 
-Path:  /v2/reg/{device_no}
+Path:  https://apis.tomo.inc/rain/v2/reg/{device_no}
 
 Description: generate public key
 
@@ -1092,7 +1094,7 @@ Description: generate public key
 
 Method: Post
 
-Path:  /v2/sign
+Path:  https://apis.tomo.inc/rain/v2/sign
 
 Description: sign message
 
@@ -1130,7 +1132,7 @@ Description: sign message
 
 Method: GET
 
-Path: /prod/avp_tomoji/v4/memes-overview
+Path: https://apis.tomo.inc/cloud/v4/memes-overview
 
 Description: query token details
 

@@ -1,8 +1,12 @@
-## Title: Query the tokens that users are interested in
+## Query the tokens
+
+### description
+
+> Query the tokens that users are interested in
 
 Method: GET
 
-Path:  /api/socialLogin/teleGram/wallet/favouriteTokens
+Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 
 > example
 

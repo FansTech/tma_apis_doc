@@ -789,7 +789,7 @@ Description: Del token asset for user by chain_id and token
 
 Method: GET
 
-Path:  https://apis.tomo.inc/rain/v2/passkey/check/{device_no}
+Path:  https://apis.tomo.inc/wind/v2/passkey/check/{device_no}
 
 Description: check passkey v2 by device_no
 
@@ -818,7 +818,7 @@ Description: check passkey v2 by device_no
 
 Method: POST
 
-Path: https://apis.tomo.inc/rain/v2/passkey/create
+Path: https://apis.tomo.inc/wind/v2/passkey/create
 
 Description:  create passkey v2 by device_no and pubkey
 
@@ -853,7 +853,7 @@ Description:  create passkey v2 by device_no and pubkey
 
 Method: POST
 
-Path: https://apis.tomo.inc/rain/v2/passkey/validate
+Path: https://apis.tomo.inc/wind/v2/passkey/validate
 
 Description: Submit message & sign to validate
 

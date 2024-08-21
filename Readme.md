@@ -1177,3 +1177,29 @@ Description: Query the token through the address and chain
   }
 }
 ```
+## Verify token and return tonaddress
+
+Path: https://apis.tomo.inc/wind/v1/ton/address
+Method:GET
+
+> Body Request parameters
+
+### Request parameters
+
+| name          | position | type   | required | description |
+| ------------- | -------- | ------ | -------- | ----------- |
+| Authorization | header   | string | true     | none        |
+
+> example
+
+> success
+
+```json
+{
+  "code": 8000,
+  "message": "OK",
+  "data": {
+    "ton_address": "UQDsuld919O2n6mxq-HtIv7Xug7szHELCOfe70DtEigdisJ1"
+  }
+}
+```

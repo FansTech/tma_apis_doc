@@ -1180,7 +1180,10 @@ Description: Query the token through the address and chain
 ## Verify token and return tonaddress
 
 Path: https://apis.tomo.inc/wind/v1/ton/address
+
 Method:GET
+
+Description: Verify token and return tonaddress
 
 > Body Request parameters
 

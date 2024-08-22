@@ -954,7 +954,7 @@ Path: https://apis.tomo.inc/sun/v1/buildTx
 
 Method:GET
 
-Description: Verify token and return tonaddress
+Description: Query Swap Token
 
 > Body Request parameters
 

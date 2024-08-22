@@ -106,15 +106,14 @@ FIFTEEN_MINUTE
 #### menu value
 
 | property | value          |
-| -------- | -------------- |
-| interval | hour           |
-| interval | four_hour      |
-| interval | day            |
-| interval | week           |
-| interval | month          |
-| interval | minute         |
-| interval | five_minute    |
-| interval | fifteen_minute |
+| interval | HOUR           |
+| interval | FOUR_HOUR      |
+| interval | DAY            |
+| interval | WEEK           |
+| interval | MONTH          |
+| interval | MINUTE         |
+| interval | FIVE_MINUTE    |
+| interval | FIFTEEN_MINUTE |
 
 > example
 

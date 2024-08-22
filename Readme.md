@@ -994,7 +994,6 @@ Description: Query Swap Token
     "dex_name": "string",
     "from_token": {
       "decimals": 0,
-      "name": "string",
       "symbol": "string"
     },
     "minReceiveAmount": "string",
@@ -1002,7 +1001,6 @@ Description: Query Swap Token
     "source": "rango",
     "to_token": {
       "decimals": 0,
-      "name": "string",
       "symbol": "string"
     },
     "transaction": {

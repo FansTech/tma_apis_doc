@@ -83,7 +83,18 @@ Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/wallet/favouriteTokens
 Method: GET
 
 Path:  https://apis.tomo.inc/sky/api/socialLogin/teleGram/{tokenName}/OHLCV
-Description: Query chart data by time period
+
+Description: Query chart data by time period; interval: The following values need to be passed in
+
+like： 
+DAY 
+WEEK 
+MONTH 
+HOUR 
+FOUR_HOUR
+MINUTE
+FIVE_MINUTE
+FIFTEEN_MINUTE
 
 ### Request parameters
 

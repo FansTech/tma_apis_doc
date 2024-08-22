@@ -979,7 +979,8 @@ Description: Query Swap Token
 | toAddress | query   | uint64 | false     | none        |
 | amount | query   | string | true     | none        |
 | slippage | query   | uint64 | true     | 1 ~ 1000     |
-| userWalletAddress | query   | string | true     | wallet address     |
+| fromWalletAddress | query   | string | true     | from wallet address    |
+| toWalletAddress | query   | string | true     | to wallet address     |
 
 
 > example

@@ -106,6 +106,7 @@ FIFTEEN_MINUTE
 #### menu value
 
 | property | value          |
+| -------- | -------------- |
 | interval | HOUR           |
 | interval | FOUR_HOUR      |
 | interval | DAY            |

@@ -1206,3 +1206,76 @@ Description: Verify token and return tonaddress
   }
 }
 ```
+
+## Swap token
+
+Path: https://apis.tomo.inc/sun/v1/buildTx
+
+Method:GET
+
+Description: Verify token and return tonaddress
+
+> Body Request parameters
+
+### Request parameters
+
+| name          | position | type   | required | description |
+| ------------- | -------- | ------ | -------- | ----------- |
+| fromChainid | query   | uint64 | true     | none        |
+| toChainid | query   | uint64 | true     | none        |
+| fromAddress | query   | string | false     | none        |
+| toAddress | query   | uint64 | false     | none        |
+| amount | query   | string | true     | none        |
+| slippage | query   | uint64 | true     | 1 ~ 1000     |
+| userWalletAddress | query   | string | true     | wallet address     |
+
+
+> example
+
+> 200 Response
+
+```json
+{
+  "code": 0,
+  "data": {
+    "dex_name": "string",
+    "from_token": {
+      "decimals": 0,
+      "name": "string",
+      "symbol": "string"
+    },
+    "minReceiveAmount": "string",
+    "origin_data": "string",
+    "source": "rango",
+    "to_token": {
+      "decimals": 0,
+      "name": "string",
+      "symbol": "string"
+    },
+    "transaction": {
+      "approveData": "string",
+      "approveTo": "string",
+      "data": "string",
+      "from": "string",
+      "gas": "string",
+      "gasPrice": "string",
+      "maxFeePerGas": "string",
+      "maxGasPrice": "string",
+      "maxPriorityFeePerGas": "string",
+      "priorityGasPrice": "string",
+      "to": "string",
+      "value": "string"
+    }
+  },
+  "message": "string"
+}
+```
+
+> other Response
+
+```
+{
+  "code": 0,
+  "message": "string"
+}
+```

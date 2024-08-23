@@ -976,7 +976,7 @@ Description: Query Swap Token
 | fromChainid | query   | uint64 | true     | none        |
 | toChainid | query   | uint64 | true     | none        |
 | fromAddress | query   | string | false     | none        |
-| toAddress | query   | uint64 | false     | none        |
+| toAddress | query   | string | false     | none        |
 | amount | query   | string | true     | none        |
 | slippage | query   | uint64 | true     | 1 ~ 1000     |
 | fromWalletAddress | query   | string | true     | from wallet address    |
@@ -992,17 +992,9 @@ Description: Query Swap Token
   "code": 0,
   "data": {
     "dex_name": "string",
-    "from_token": {
-      "decimals": 0,
-      "symbol": "string"
-    },
     "minReceiveAmount": "string",
     "origin_data": "string",
     "source": "rango",
-    "to_token": {
-      "decimals": 0,
-      "symbol": "string"
-    },
     "transaction": {
       "approveData": "string",
       "approveTo": "string",

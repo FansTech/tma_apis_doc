@@ -1022,3 +1022,5 @@ Description: Query Swap Token
   "message": "string"
 }
 ```
+## special instructions:
+All interfaces need to add a token to the header

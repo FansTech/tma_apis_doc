@@ -1022,5 +1022,8 @@ Description: Query Swap Token
   "message": "string"
 }
 ```
-## special instructions:
+## Special instructions:
 All interfaces need to add a token to the header
+
+> example
+Authorization: Bearer eyJraWQiOiIyBzMxMjA2MTcySiIsInR5cC26IkpXVCIsImFsZyI6IlJTMjU2In0.eyJhcHAiOiJ0b21vIiwidXNlcl9pZCI6Nzg2NzExLCJleHAiOjE3MjY5NjU3MjAsImlhdCI6MTcyNDM3MzcyMCwiY2xpZW50X2lkIjoiSVV2d0VQZXVtV0d3MFRPT1cxWDlvOGhIaDRETmVNNWpvY1BPNkJVQTdJVU1FVWhkekozUG9MYVBwbFJ0WE92MVl5cEVLa2FIWWZxT3IzRHlxcWhkaVRPZSIsInVzZXJuYW1lIjoidGVsZWdyYW1Ab2xpdmVyb28wbyJ9.PHb9U86KS79_-bVjHVZqx6xY80Fg9MmnQ33Tl5H_A5yN7JVMTyyLD5SsoMSnx4ykJH1an5zKKztsk_nmJg_np-D4h761SS0MAzerzhOnl6Qdvq2FKfxioU4U2Ky4JhzdeksFsnamXALg7Vc-EUJ0B4sUJK7SjmzMdPGT7Yr8lL2

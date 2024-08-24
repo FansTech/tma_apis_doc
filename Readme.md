@@ -992,12 +992,13 @@ Description: Query Swap Token
   "code": 0,
   "data": {
     "dex_name": "string",
-    "minReceiveAmount": "string",
+    "receive_amount": "string",
+    "min_receive_amount": "string",
     "origin_data": "string",
     "source": "rango",
     "transaction": {
-      "approveData": "string",
-      "approveTo": "string",
+      "approve_data": "string",
+      "approve_to": "string",
       "data": "string",
       "from": "string",
       "gas": "string",

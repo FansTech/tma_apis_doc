@@ -377,7 +377,8 @@ Body Request parameters
 ```json
 {
   "email": "string",
-  "code": "string"
+  "code": "string",
+  "tradePassword": "string"
 }
 ```
 
@@ -385,7 +386,7 @@ Body Request parameters
 
 | name | position | type                                                | required | description |
 | ---- | -------- | --------------------------------------------------- | -------- | ----------- |
-| body | body     | [UserEmailBindCodeDTO](#schemauseremailbindcodedto) | false    | none        |
+| body | body     | [TgEmailCodeBindDTO](#schematgemailcodebinddto) | false    | none        |
 
 > example
 
@@ -407,8 +408,8 @@ Method : GET
 
 Path:  https://apis.tomo.inc/sky/api/socialLogin/projectUser/bindEmailCode
 
-### Request parameters
 
+### Request parameters
 | name  | position | type   | required | description |
 | ----- | -------- | ------ | -------- | ----------- |
 | email | query    | string | true     | none        |
